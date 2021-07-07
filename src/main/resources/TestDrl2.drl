@@ -5,3 +5,12 @@ then
     System.out.println("Output Child3");
     System.out.println("Output Change Child3");
 end
+
+rule "child4"
+extends "parent"
+when
+then
+    System.out.println("Output Child4");
+    System.out.println("Output Change Child4");
+end
+
