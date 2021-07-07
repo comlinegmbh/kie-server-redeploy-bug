@@ -3,9 +3,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <id>nexus</id>
+        <url>http://maven.comline.de/nexus/content/groups/public</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/opt/data/maven-repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
