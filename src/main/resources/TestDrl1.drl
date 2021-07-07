@@ -5,19 +5,3 @@ then
     System.out.println("Output Change Parent");
 end
 
-rule "child1"
-extends "parent"
-when
-then
-    System.out.println("Output Child1");
-    System.out.println("Output Change Child1");
-end
-
-rule "child2"
-extends "parent"
-when
-then
-    System.out.println("Output Child2");
-    System.out.println("Output Change Child2");
-end
-
