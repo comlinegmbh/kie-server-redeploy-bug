@@ -13,3 +13,11 @@ then
     System.out.println("Output Change Child1");
 end
 
+rule "child2"
+extends "child1"
+when
+then
+    System.out.println("Output Child2");
+    System.out.println("Output Change Child2");
+end
+
