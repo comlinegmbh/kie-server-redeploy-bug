@@ -14,7 +14,7 @@ then
 end
 
 rule "child2"
-extends "child1"
+extends "parent"
 when
 then
     System.out.println("Output Child2");
