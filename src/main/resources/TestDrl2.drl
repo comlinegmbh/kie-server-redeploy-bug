@@ -1,0 +1,7 @@
+rule "child3"
+extends "child1"
+when
+then
+    System.out.println("Output Child3");
+    System.out.println("Output Change Child3");
+end
