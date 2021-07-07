@@ -2,8 +2,8 @@ rule "child1"
 extends "parent"
 when
 then
-    System.out.println("Output Child1");
-    System.out.println("Output Change Child1");
+    System.out.println("Output Child1.1");
+    System.out.println("Output Change Child1.1");
 end
 
 rule "child2"
