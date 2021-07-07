@@ -1,7 +1,7 @@
 rule "parent"
 when
 then
-    System.out.println("Output Parent");
-    System.out.println("Output Change Parent");
+    System.out.println("Output Parent 0");
+    System.out.println("Output Change Parent 0");
 end
 
