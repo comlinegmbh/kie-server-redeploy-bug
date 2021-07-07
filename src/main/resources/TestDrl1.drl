@@ -2,6 +2,7 @@ rule "parent"
 when
 then
     System.out.println("Output Parent");
+    System.out.println("Output Change Parent");
 end
 
 rule "child1"
